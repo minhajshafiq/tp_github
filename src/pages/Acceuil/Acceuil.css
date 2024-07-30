@@ -1,0 +1,51 @@
+.acceuil {
+    font-family: Arial, sans-serif;
+}
+
+.hero-banner {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-image img {
+    width: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.hero-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-details .btn {
+    font-size: 1rem;
+}
+
+.about-us,
+.featured-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-products .card {
+    text-align: left;
+}
+
+.featured-products .btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
